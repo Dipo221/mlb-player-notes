@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MLB 球員觀察筆記</title>
+<meta name="description" content="一頁一位 MLB 球員：基本資料、近三季數據、打法特色與我的觀察。">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="site-bar"><a href="index.html">MLB 球員觀察筆記</a><span>MLB Player Notes</span></header>
+
+<main class="page">
+  <section class="hero">
+    <h1>MLB 球員觀察筆記</h1>
+    <p>一頁一位球員：基本資料、近三季數據、打法特色，以及我自己的觀察。</p>
+    <p class="meta">共 4 位球員・最後更新 2026-11-16・數據來源 MLB Stats API</p>
+    <input class="search" id="search" type="search" placeholder="搜尋球員或球隊（例如：Judge、LAD、道奇、游擊）" aria-label="搜尋球員">
+    <p class="empty" id="empty">找不到符合的球員。</p>
+  </section>
+
+  <!-- 分組順序固定：two-way → starter → reliever → catcher → infield → outfield → dh；空分組不顯示（見 CLAUDE.md 第 7 節） -->
+
+  <section class="group" id="g-two-way">
+    <h2>二刀流</h2>
+    <div class="cards">
+<a class="mini" href="pages/players/shohei-ohtani.html" data-search="shohei ohtani lad 道奇 二刀流" style="--team-primary:#005A9C; --team-secondary:#EF3E42"><span class="mnum">17</span><span><b>Shohei Ohtani</b><br><small>LAD 道奇・TWP</small></span><span class="key">OPS .889・ERA 1.79</span></a>
+    </div>
+  </section>
+
+  <section class="group" id="g-starter">
+    <h2>先發投手</h2>
+    <div class="cards">
+<a class="mini" href="pages/players/tarik-skubal.html" data-search="tarik skubal lad 道奇 先發投手" style="--team-primary:#005A9C; --team-secondary:#EF3E42"><span class="mnum">29</span><span><b>Tarik Skubal</b><br><small>LAD 道奇・SP</small></span><span class="key">ERA 2.72</span></a>
+    </div>
+  </section>
+
+  <section class="group" id="g-infield">
+    <h2>內野手</h2>
+    <div class="cards">
+<a class="mini" href="pages/players/bobby-witt-jr.html" data-search="bobby witt jr. kc 皇家 游擊手" style="--team-primary:#004687; --team-secondary:#BD9B60"><span class="mnum">7</span><span><b>Bobby Witt Jr.</b><br><small>KC 皇家・SS</small></span><span class="key">OPS .800</span></a>
+    </div>
+  </section>
+
+  <section class="group" id="g-outfield">
+    <h2>外野手</h2>
+    <div class="cards">
+<a class="mini" href="pages/players/aaron-judge.html" data-search="aaron judge nyy 洋基 右外野手" style="--team-primary:#0C2340; --team-secondary:#C4CED4"><span class="mnum">99</span><span><b>Aaron Judge</b><br><small>NYY 洋基・RF</small></span><span class="key">OPS .871</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  卡片上的代表數據為最近一季：打者 OPS、投手 ERA。所有頁面依專案的
+  <a href="https://github.com/Dipo221/mlb-player-notes/blob/main/CLAUDE.md">CLAUDE.md</a> 規則由 AI 產生並更新。
+</footer>
+<script src="assets/js/search.js"></script>
+</body>
+</html>

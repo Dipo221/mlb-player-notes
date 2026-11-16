@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>風格範例 B：復古球員卡</title>
+<!-- 風格範例頁：為了單檔好比較才把 CSS 寫在頁內；正式頁面一律用 assets/css/site.css -->
+<style>
+*{box-sizing:border-box} body{margin:0} img{max-width:100%}
+.page{max-width:880px;margin:0 auto;padding:16px}
+.table-wrap{overflow-x:auto} table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;text-align:right;white-space:nowrap} th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+.player-card{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}
+.facts{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0}
+.facts dt{font-size:.75rem;opacity:.7} .facts dd{margin:0}
+.jersey{width:96px;height:96px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.num{font-size:2.6rem;font-weight:800;line-height:1} .abbr{font-size:.8rem;letter-spacing:.15em}
+h1 small{display:block;font-size:.55em;font-weight:400;opacity:.75}
+.pitch{display:grid;grid-template-columns:6.5em 1fr 9.5em;gap:8px;align-items:center;margin:6px 0}
+.bar{height:12px;display:block} .bar i{display:block;height:100%}
+.pval{font-variant-numeric:tabular-nums;font-size:.9rem}
+.traits{padding-left:0;list-style:none} .traits b{display:inline-block;width:3em}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.mini{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;text-decoration:none;padding:10px 12px}
+.mnum{font-weight:800;font-size:1.4rem;width:2.2em;text-align:center}
+.site-bar{display:flex;justify-content:space-between;padding:10px 16px}
+.site-bar a{text-decoration:none;font-weight:700}
+@media (max-width:480px){.pitch{grid-template-columns:5.5em 1fr;}.pval{grid-column:2}}
+
+body{background:#efe6d2;color:#2b2622;font-family:"Noto Serif TC","Songti TC",Georgia,serif}
+.site-bar{background:#2b2622;color:#efe6d2} .site-bar a{color:#efe6d2}
+.player-card{background:#fbf6ea;border:10px solid var(--team-primary);outline:3px solid var(--team-secondary);outline-offset:-16px;padding:24px;border-radius:4px;box-shadow:4px 6px 0 rgba(43,38,34,.25)}
+.jersey{background:var(--team-primary);color:#fff;border-radius:50%;box-shadow:inset 0 0 0 4px var(--team-secondary)}
+.pos{margin:0;text-transform:uppercase;letter-spacing:.2em;font-size:.8rem;color:var(--team-primary)}
+h1{margin:.1em 0;font-size:2rem} .tagline{margin:0;font-style:italic}
+.facts{border-top:2px dotted #b8a988;padding-top:10px}
+.block{margin-top:22px;background:#fbf6ea;padding:16px 20px;border:1px solid #d8cbab;border-radius:4px}
+h2{margin:0 0 10px;font-size:1.15rem;display:inline-block;background:#2b2622;color:#efe6d2;padding:2px 12px;transform:rotate(-1deg)}
+th{border-bottom:2px solid #2b2622;font-size:.85rem} td{border-bottom:1px dotted #b8a988}
+tbody tr:nth-child(odd){background:#f3ead6}
+.note,.sub{font-size:.8rem;color:#7a6d5a}
+.bar{background:#e6dbc2;border-radius:6px} .bar i{background:#a4442c;border-radius:6px}
+.todo{color:#a4442c;font-style:italic}
+.mini{background:#fbf6ea;color:#2b2622;border:4px solid var(--team-primary);border-radius:6px;box-shadow:3px 3px 0 var(--team-secondary)}
+.mnum{color:var(--team-primary)} .key{font-weight:700}
+</style></head><body>
+
+<header class="site-bar"><a href="#">MLB 球員觀察筆記</a><span>風格範例 B・復古球員卡</span></header>
+<main class="page">
+  <section class="player-card" style="--team-primary:#005A9C; --team-secondary:#EF3E42">
+    <div class="jersey"><span class="num">29</span><span class="abbr">LAD</span></div>
+    <div class="who">
+      <p class="pos">先發投手・左投右打</p>
+      <h1>史庫柏 <small>Tarik Skubal</small></h1>
+      <p class="tagline">連兩年美聯賽揚、控球與三振兼具的左投王牌</p>
+    </div>
+    <dl class="facts">
+      <div><dt>球隊</dt><dd>洛杉磯道奇 LAD</dd></div>
+      <div><dt>年齡</dt><dd>29（1996-11-20）</dd></div>
+      <div><dt>出生地</dt><dd>Hayward, CA, USA</dd></div>
+      <div><dt>身高體重</dt><dd>190 公分／109 公斤</dd></div>
+      <div><dt>MLB 初登板</dt><dd>2020-08-18</dd></div>
+    </dl>
+  </section>
+
+  <section class="block">
+    <h2>生涯簡介</h2>
+    <p>2018 年選秀第 9 輪（總第 255 順位）由老虎從 Seattle University 選入，2020 年 8 月 18 日完成大聯盟初登板。
+    2024、2025 年連續拿下美聯賽揚獎，並兩度入選 All-MLB 第一隊。2026 年球季中轉到道奇，整季合計先發 26 場。</p>
+  </section>
+
+  <section class="block">
+    <h2>近三季數據</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>季</th><th>隊</th><th>G</th><th>GS</th><th>IP</th><th>W-L</th><th>ERA</th><th>WHIP</th><th>K/9</th><th>BB/9</th><th>K%</th><th>FIP</th><th>WAR</th></tr></thead>
+      <tbody>
+        <tr><td>2024</td><td>DET</td><td>31</td><td>31</td><td>192.0</td><td>18-4</td><td>2.39</td><td>0.92</td><td>10.69</td><td>1.64</td><td>30.3</td><td>2.49</td><td>6.04</td></tr>
+        <tr><td>2025</td><td>DET</td><td>31</td><td>31</td><td>195.1</td><td>13-6</td><td>2.21</td><td>0.89</td><td>11.10</td><td>1.52</td><td>32.2</td><td>2.45</td><td>6.71</td></tr>
+        <tr><td>2026</td><td>2TM</td><td>26</td><td>26</td><td>158.2</td><td>12-7</td><td>2.72</td><td>0.96</td><td>10.55</td><td>1.53</td><td>30.0</td><td>2.51</td><td>5.21</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">2TM＝Detroit Tigers、Los Angeles Dodgers。WAR、FIP 為 MLB Stats API 版本，與 FanGraphs／B-Ref 數值可能略有差異。</p>
+  </section>
+
+  <section class="block">
+    <h2>數據解讀</h2>
+    <ul class="points">
+      <li><b>控球穩到誇張：</b>BB/9 三季都在 1.52–1.64 之間，幾乎不給保送。</li>
+      <li><b>三振能力頂尖：</b>K% 連三季 30% 以上（30.3、32.2、30.0）。</li>
+      <li><b>2026 只是運氣差一點：</b>ERA 從 2.21 升到 2.72，但 FIP 2.51 和前兩季（2.49、2.45）幾乎一樣，實力沒退。</li>
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>打法特色</h2>
+    <p class="sub">2026 球種配比與均速</p>
+    <div class="arsenal">
+      <div class="pitch"><span class="pname">四縫線速球</span><span class="bar"><i style="width:38%"></i></span><span class="pval">38.0%・96.8 mph</span></div>
+      <div class="pitch"><span class="pname">變速球</span><span class="bar"><i style="width:25.6%"></i></span><span class="pval">25.6%・87.7 mph</span></div>
+      <div class="pitch"><span class="pname">伸卡球</span><span class="bar"><i style="width:17.5%"></i></span><span class="pval">17.5%・96.7 mph</span></div>
+      <div class="pitch"><span class="pname">滑球</span><span class="bar"><i style="width:13.9%"></i></span><span class="pval">13.9%・89.7 mph</span></div>
+      <div class="pitch"><span class="pname">曲球</span><span class="bar"><i style="width:5%"></i></span><span class="pval">5.0%・80.4 mph</span></div>
+    </div>
+    <ul class="traits">
+      <li><b>控球</b>BB% 只有 4.4%，好球帶邊角掌握精準。</li>
+      <li><b>角色</b>輪值第一線先發，2026 年 26 場先發投了 158.2 局。</li>
+    </ul>
+  </section>
+
+  <section class="block mine">
+    <h2>我的觀察</h2>
+    <p class="todo">待補</p>
+  </section>
+
+  <section class="block sources">
+    <h2>資料來源</h2>
+    <p>MLB Stats API（查詢日期 2026-11-16）・MLB.com 球員頁・Baseball-Reference</p>
+  </section>
+
+  <section class="block preview">
+    <h2>首頁卡片預覽</h2>
+    <div class="cards">
+      <a class="mini" href="#" style="--team-primary:#005A9C; --team-secondary:#EF3E42"><span class="mnum">29</span><span><b>史庫柏</b><br><small>Tarik Skubal・LAD・SP</small></span><span class="key">ERA 2.72</span></a>
+      <a class="mini" href="#" style="--team-primary:#0C2340; --team-secondary:#C4CED4"><span class="mnum">99</span><span><b>賈吉</b><br><small>Aaron Judge・NYY・RF</small></span><span class="key">OPS .871</span></a>
+    </div>
+  </section>
+</main>
+
+</body></html>

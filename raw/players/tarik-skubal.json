@@ -1,0 +1,418 @@
+{
+  "_note": "由 scripts/fetch_player.py 自動產生，請勿手改。要更新請重跑腳本。",
+  "slug": "tarik-skubal",
+  "mlbam_id": 669373,
+  "fetched_at": "2026-11-16",
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "sources": {
+    "api": "https://statsapi.mlb.com/api/v1/people/669373",
+    "mlb_com": "https://www.mlb.com/player/tarik-skubal-669373",
+    "baseball_reference": "https://www.baseball-reference.com/search/search.fcgi?search=Tarik%20Skubal"
+  },
+  "bio": {
+    "full_name": "Tarik Skubal",
+    "first_name": "Tarik",
+    "last_name": "Skubal",
+    "number": "29",
+    "position": "P",
+    "position_name": "Pitcher",
+    "bats": "R",
+    "throws": "L",
+    "birth_date": "1996-11-20",
+    "age": 29,
+    "birth_place": "Hayward, CA, USA",
+    "height": "6' 3\"",
+    "height_cm": 190,
+    "weight_lb": 240,
+    "weight_kg": 109,
+    "mlb_debut": "2020-08-18"
+  },
+  "current_team": {
+    "id": 119,
+    "abbr": "LAD",
+    "zh": "道奇",
+    "en": "Los Angeles Dodgers",
+    "primary": "#005A9C",
+    "secondary": "#EF3E42"
+  },
+  "position_group": "starter",
+  "awards": [
+    {
+      "name": "FSL Mid-Season All-Star",
+      "season": "2019"
+    },
+    {
+      "name": "MiLB.com Organization All-Star",
+      "season": "2019"
+    },
+    {
+      "name": "AL Pitcher of the Month",
+      "season": "2023"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2024"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Pitcher",
+      "season": "2024"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2024"
+    },
+    {
+      "name": "AL Cy Young",
+      "season": "2024"
+    },
+    {
+      "name": "Tiger of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2025"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2025"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Pitcher",
+      "season": "2025"
+    },
+    {
+      "name": "Tiger of the Year",
+      "season": "2025"
+    },
+    {
+      "name": "Warren Spahn Award",
+      "season": "2025"
+    },
+    {
+      "name": "AL Cy Young",
+      "season": "2025"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2025"
+    },
+    {
+      "name": "All-MLB Second Team",
+      "season": "2026"
+    }
+  ],
+  "draft": [
+    {
+      "year": "2017",
+      "round": "29",
+      "pick": 862,
+      "team": "Arizona Diamondbacks",
+      "school": "Seattle"
+    },
+    {
+      "year": "2018",
+      "round": "9",
+      "pick": 255,
+      "team": "Detroit Tigers",
+      "school": "Seattle University"
+    }
+  ],
+  "hitting": null,
+  "pitching": [
+    {
+      "season": 2024,
+      "teams": [
+        "Detroit Tigers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 27,
+        "gamesPlayed": 31,
+        "gamesStarted": 31,
+        "groundOuts": 169,
+        "airOuts": 170,
+        "runs": 54,
+        "doubles": 24,
+        "triples": 4,
+        "homeRuns": 15,
+        "strikeOuts": 228,
+        "baseOnBalls": 35,
+        "intentionalWalks": 0,
+        "hits": 142,
+        "hitByPitch": 9,
+        "avg": ".201",
+        "atBats": 705,
+        "obp": ".247",
+        "slg": ".311",
+        "ops": ".558",
+        "caughtStealing": 3,
+        "stolenBases": 3,
+        "stolenBasePercentage": ".500",
+        "caughtStealingPercentage": ".500",
+        "groundIntoDoublePlay": 12,
+        "numberOfPitches": 2866,
+        "era": "2.39",
+        "inningsPitched": "192.0",
+        "wins": 18,
+        "losses": 4,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 51,
+        "whip": "0.92",
+        "battersFaced": 753,
+        "outs": 576,
+        "gamesPitched": 31,
+        "completeGames": 0,
+        "shutouts": 0,
+        "strikes": 1985,
+        "strikePercentage": ".690",
+        "hitBatsmen": 9,
+        "balks": 0,
+        "wildPitches": 2,
+        "pickoffs": 0,
+        "totalBases": 219,
+        "groundOutsToAirouts": "0.99",
+        "winPercentage": ".818",
+        "pitchesPerInning": "14.93",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "6.51",
+        "strikeoutsPer9Inn": "10.69",
+        "walksPer9Inn": "1.64",
+        "hitsPer9Inn": "6.66",
+        "runsScoredPer9": "2.53",
+        "homeRunsPer9": "0.70",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 1,
+        "sacFlies": 3
+      },
+      "sabermetrics": {
+        "fip": 2.49,
+        "xfip": 2.83,
+        "fipMinus": 59.58,
+        "war": 6.04,
+        "eraMinus": 59.0
+      },
+      "derived": {
+        "k_pct": 30.3,
+        "bb_pct": 4.6,
+        "gs_ratio": 1.0
+      }
+    },
+    {
+      "season": 2025,
+      "teams": [
+        "Detroit Tigers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 28,
+        "gamesPlayed": 31,
+        "gamesStarted": 31,
+        "groundOuts": 160,
+        "airOuts": 168,
+        "runs": 55,
+        "doubles": 26,
+        "triples": 2,
+        "homeRuns": 18,
+        "strikeOuts": 241,
+        "baseOnBalls": 33,
+        "intentionalWalks": 0,
+        "hits": 141,
+        "hitByPitch": 5,
+        "avg": ".200",
+        "atBats": 706,
+        "obp": ".240",
+        "slg": ".319",
+        "ops": ".559",
+        "caughtStealing": 4,
+        "stolenBases": 3,
+        "stolenBasePercentage": ".429",
+        "caughtStealingPercentage": ".571",
+        "groundIntoDoublePlay": 10,
+        "numberOfPitches": 2849,
+        "era": "2.21",
+        "inningsPitched": "195.1",
+        "wins": 13,
+        "losses": 6,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 48,
+        "whip": "0.89",
+        "battersFaced": 748,
+        "outs": 586,
+        "gamesPitched": 31,
+        "completeGames": 1,
+        "shutouts": 1,
+        "strikes": 2003,
+        "strikePercentage": ".700",
+        "hitBatsmen": 5,
+        "balks": 2,
+        "wildPitches": 3,
+        "pickoffs": 1,
+        "totalBases": 225,
+        "groundOutsToAirouts": "0.95",
+        "winPercentage": ".684",
+        "pitchesPerInning": "14.59",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "7.30",
+        "strikeoutsPer9Inn": "11.10",
+        "walksPer9Inn": "1.52",
+        "hitsPer9Inn": "6.50",
+        "runsScoredPer9": "2.53",
+        "homeRunsPer9": "0.83",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 2,
+        "sacFlies": 2
+      },
+      "sabermetrics": {
+        "fip": 2.45,
+        "xfip": 2.66,
+        "fipMinus": 57.16,
+        "war": 6.71,
+        "eraMinus": 53.58
+      },
+      "derived": {
+        "k_pct": 32.2,
+        "bb_pct": 4.4,
+        "gs_ratio": 1.0
+      }
+    },
+    {
+      "season": 2026,
+      "teams": [
+        "Detroit Tigers",
+        "Los Angeles Dodgers"
+      ],
+      "team_label": "2TM",
+      "stat": {
+        "age": 29,
+        "gamesPlayed": 26,
+        "gamesStarted": 26,
+        "groundOuts": 146,
+        "airOuts": 130,
+        "runs": 52,
+        "doubles": 25,
+        "triples": 3,
+        "homeRuns": 14,
+        "strikeOuts": 186,
+        "baseOnBalls": 27,
+        "intentionalWalks": 0,
+        "hits": 126,
+        "hitByPitch": 5,
+        "avg": ".217",
+        "atBats": 581,
+        "obp": ".257",
+        "slg": ".343",
+        "ops": ".600",
+        "caughtStealing": 1,
+        "stolenBases": 8,
+        "stolenBasePercentage": ".889",
+        "caughtStealingPercentage": ".111",
+        "groundIntoDoublePlay": 17,
+        "numberOfPitches": 2356,
+        "era": "2.72",
+        "inningsPitched": "158.2",
+        "wins": 12,
+        "losses": 7,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 48,
+        "whip": "0.96",
+        "battersFaced": 620,
+        "outs": 476,
+        "gamesPitched": 26,
+        "completeGames": 0,
+        "shutouts": 0,
+        "strikes": 1611,
+        "strikePercentage": ".680",
+        "hitBatsmen": 5,
+        "balks": 0,
+        "wildPitches": 1,
+        "pickoffs": 1,
+        "totalBases": 199,
+        "groundOutsToAirouts": "1.12",
+        "winPercentage": ".632",
+        "pitchesPerInning": "14.85",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "6.89",
+        "strikeoutsPer9Inn": "10.55",
+        "walksPer9Inn": "1.53",
+        "hitsPer9Inn": "7.15",
+        "runsScoredPer9": "2.95",
+        "homeRunsPer9": "0.79",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 6,
+        "sacFlies": 1
+      },
+      "sabermetrics": {
+        "fip": 2.51,
+        "xfip": 2.7,
+        "fipMinus": 59.33,
+        "war": 5.21,
+        "eraMinus": 65.12
+      },
+      "derived": {
+        "k_pct": 30.0,
+        "bb_pct": 4.4,
+        "gs_ratio": 1.0
+      }
+    }
+  ],
+  "pitch_arsenal": {
+    "season": 2026,
+    "pitches": [
+      {
+        "code": "FF",
+        "name": "Four-seam FB",
+        "usage_pct": 38.0,
+        "avg_mph": 96.8,
+        "count": 896
+      },
+      {
+        "code": "CH",
+        "name": "Changeup",
+        "usage_pct": 25.6,
+        "avg_mph": 87.7,
+        "count": 603
+      },
+      {
+        "code": "SI",
+        "name": "Sinker",
+        "usage_pct": 17.5,
+        "avg_mph": 96.7,
+        "count": 412
+      },
+      {
+        "code": "SL",
+        "name": "Slider",
+        "usage_pct": 13.9,
+        "avg_mph": 89.7,
+        "count": 327
+      },
+      {
+        "code": "CU",
+        "name": "Curveball",
+        "usage_pct": 5.0,
+        "avg_mph": 80.4,
+        "count": 118
+      }
+    ]
+  }
+}

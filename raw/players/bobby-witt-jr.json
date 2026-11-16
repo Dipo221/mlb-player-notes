@@ -1,0 +1,362 @@
+{
+  "_note": "由 scripts/fetch_player.py 自動產生，請勿手改。要更新請重跑腳本。",
+  "slug": "bobby-witt-jr",
+  "mlbam_id": 677951,
+  "fetched_at": "2026-11-16",
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "sources": {
+    "api": "https://statsapi.mlb.com/api/v1/people/677951",
+    "mlb_com": "https://www.mlb.com/player/bobby-witt-jr-677951",
+    "baseball_reference": "https://www.baseball-reference.com/search/search.fcgi?search=Bobby%20Witt%20Jr."
+  },
+  "bio": {
+    "full_name": "Bobby Witt Jr.",
+    "first_name": "Bobby",
+    "last_name": "Witt",
+    "number": "7",
+    "position": "SS",
+    "position_name": "Shortstop",
+    "bats": "R",
+    "throws": "R",
+    "birth_date": "2000-06-14",
+    "age": 26,
+    "birth_place": "Colleyville, TX, USA",
+    "height": "6' 1\"",
+    "height_cm": 185,
+    "weight_lb": 200,
+    "weight_kg": 91,
+    "mlb_debut": "2022-04-07"
+  },
+  "current_team": {
+    "id": 118,
+    "abbr": "KC",
+    "zh": "皇家",
+    "en": "Kansas City Royals",
+    "primary": "#004687",
+    "secondary": "#BD9B60"
+  },
+  "position_group": "infield",
+  "awards": [
+    {
+      "name": "Futures Game Selection",
+      "season": "2021"
+    },
+    {
+      "name": "INT Player of the Week",
+      "season": "2021"
+    },
+    {
+      "name": "INT Player of the Month",
+      "season": "2021"
+    },
+    {
+      "name": "USA Today Minor League Player of the Year",
+      "season": "2021"
+    },
+    {
+      "name": "Baseball America Minor League Player of the Year",
+      "season": "2021"
+    },
+    {
+      "name": "Baseball America Minor League All-Star",
+      "season": "2021"
+    },
+    {
+      "name": "INT Top MLB Prospect",
+      "season": "2021"
+    },
+    {
+      "name": "TEX Post-Season All-Star",
+      "season": "2021"
+    },
+    {
+      "name": "TEX Top MLB Prospect",
+      "season": "2021"
+    },
+    {
+      "name": "MiLB.com Organization All-Star",
+      "season": "2021"
+    },
+    {
+      "name": "MLB Play of the Week",
+      "season": "2022"
+    },
+    {
+      "name": "MLBPAA Royals Heart and Hustle Award",
+      "season": "2022"
+    },
+    {
+      "name": "Baseball America Major League All-Rookie Team",
+      "season": "2022"
+    },
+    {
+      "name": "MLB Play of the Week",
+      "season": "2023"
+    },
+    {
+      "name": "MLBPAA Royals Heart and Hustle Award",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "Home Run Derby Participant",
+      "season": "2024"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2024"
+    },
+    {
+      "name": "MLBPAA Royals Heart and Hustle Award",
+      "season": "2024"
+    },
+    {
+      "name": "Rawlings AL Gold Glove",
+      "season": "2024"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2024"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2024"
+    },
+    {
+      "name": "MLBPAA Heart and Hustle Award",
+      "season": "2024"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2025"
+    },
+    {
+      "name": "MLBPAA Royals Heart and Hustle Award",
+      "season": "2025"
+    },
+    {
+      "name": "Rawlings AL Gold Glove",
+      "season": "2025"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2025"
+    },
+    {
+      "name": "Rawlings AL Platinum Glove",
+      "season": "2025"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2025"
+    },
+    {
+      "name": "MLBPAA Heart and Hustle Award",
+      "season": "2025"
+    },
+    {
+      "name": "Lou Gehrig Award",
+      "season": "2025"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2026"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2026"
+    },
+    {
+      "name": "MLBPAA Heart and Hustle Award",
+      "season": "2026"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2026"
+    }
+  ],
+  "draft": [
+    {
+      "year": "2019",
+      "round": "1",
+      "pick": 2,
+      "team": "Kansas City Royals",
+      "school": "Colleyville Heritage HS"
+    }
+  ],
+  "hitting": [
+    {
+      "season": 2024,
+      "teams": [
+        "Kansas City Royals"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 24,
+        "gamesPlayed": 161,
+        "groundOuts": 122,
+        "airOuts": 205,
+        "runs": 125,
+        "doubles": 45,
+        "triples": 11,
+        "homeRuns": 32,
+        "strikeOuts": 106,
+        "baseOnBalls": 57,
+        "intentionalWalks": 9,
+        "hits": 211,
+        "hitByPitch": 8,
+        "avg": ".332",
+        "atBats": 636,
+        "obp": ".389",
+        "slg": ".588",
+        "ops": ".977",
+        "caughtStealing": 12,
+        "stolenBases": 31,
+        "stolenBasePercentage": ".721",
+        "caughtStealingPercentage": ".279",
+        "groundIntoDoublePlay": 4,
+        "numberOfPitches": 2600,
+        "plateAppearances": 709,
+        "totalBases": 374,
+        "rbi": 109,
+        "leftOnBase": 181,
+        "sacBunts": 0,
+        "sacFlies": 8,
+        "babip": ".354",
+        "groundOutsToAirouts": "0.60",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "19.88"
+      },
+      "sabermetrics": {
+        "woba": 0.41,
+        "wRcPlus": 169.09,
+        "war": 10.47
+      },
+      "derived": {
+        "bb_pct": 8.0,
+        "k_pct": 15.0
+      }
+    },
+    {
+      "season": 2025,
+      "teams": [
+        "Kansas City Royals"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 25,
+        "gamesPlayed": 157,
+        "groundOuts": 124,
+        "airOuts": 197,
+        "runs": 99,
+        "doubles": 47,
+        "triples": 6,
+        "homeRuns": 23,
+        "strikeOuts": 125,
+        "baseOnBalls": 49,
+        "intentionalWalks": 8,
+        "hits": 184,
+        "hitByPitch": 8,
+        "avg": ".295",
+        "atBats": 623,
+        "obp": ".351",
+        "slg": ".501",
+        "ops": ".852",
+        "caughtStealing": 9,
+        "stolenBases": 38,
+        "stolenBasePercentage": ".809",
+        "caughtStealingPercentage": ".191",
+        "groundIntoDoublePlay": 7,
+        "numberOfPitches": 2511,
+        "plateAppearances": 687,
+        "totalBases": 312,
+        "rbi": 88,
+        "leftOnBase": 235,
+        "sacBunts": 0,
+        "sacFlies": 7,
+        "babip": ".334",
+        "groundOutsToAirouts": "0.63",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "27.09"
+      },
+      "sabermetrics": {
+        "woba": 0.36,
+        "wRcPlus": 129.68,
+        "war": 8.01
+      },
+      "derived": {
+        "bb_pct": 7.1,
+        "k_pct": 18.2
+      }
+    },
+    {
+      "season": 2026,
+      "teams": [
+        "Kansas City Royals"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 26,
+        "gamesPlayed": 143,
+        "groundOuts": 107,
+        "airOuts": 189,
+        "runs": 94,
+        "doubles": 33,
+        "triples": 1,
+        "homeRuns": 18,
+        "strikeOuts": 109,
+        "baseOnBalls": 67,
+        "intentionalWalks": 12,
+        "hits": 157,
+        "hitByPitch": 3,
+        "avg": ".281",
+        "atBats": 558,
+        "obp": ".359",
+        "slg": ".441",
+        "ops": ".800",
+        "caughtStealing": 8,
+        "stolenBases": 45,
+        "stolenBasePercentage": ".849",
+        "caughtStealingPercentage": ".151",
+        "groundIntoDoublePlay": 9,
+        "numberOfPitches": 2334,
+        "plateAppearances": 632,
+        "totalBases": 246,
+        "rbi": 54,
+        "leftOnBase": 203,
+        "sacBunts": 0,
+        "sacFlies": 4,
+        "babip": ".320",
+        "groundOutsToAirouts": "0.57",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "31.00"
+      },
+      "sabermetrics": {
+        "woba": 0.345,
+        "wRcPlus": 118.79,
+        "war": 6.96
+      },
+      "derived": {
+        "bb_pct": 10.6,
+        "k_pct": 17.2
+      }
+    }
+  ],
+  "pitching": null,
+  "pitch_arsenal": null
+}

@@ -1,0 +1,565 @@
+{
+  "_note": "由 scripts/fetch_player.py 自動產生，請勿手改。要更新請重跑腳本。",
+  "slug": "aaron-judge",
+  "mlbam_id": 592450,
+  "fetched_at": "2026-11-16",
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "sources": {
+    "api": "https://statsapi.mlb.com/api/v1/people/592450",
+    "mlb_com": "https://www.mlb.com/player/aaron-judge-592450",
+    "baseball_reference": "https://www.baseball-reference.com/search/search.fcgi?search=Aaron%20Judge"
+  },
+  "bio": {
+    "full_name": "Aaron Judge",
+    "first_name": "Aaron",
+    "last_name": "Judge",
+    "number": "99",
+    "position": "RF",
+    "position_name": "Outfielder",
+    "bats": "R",
+    "throws": "R",
+    "birth_date": "1992-04-26",
+    "age": 34,
+    "birth_place": "Linden, CA, USA",
+    "height": "6' 7\"",
+    "height_cm": 201,
+    "weight_lb": 282,
+    "weight_kg": 128,
+    "mlb_debut": "2016-08-13"
+  },
+  "current_team": {
+    "id": 147,
+    "abbr": "NYY",
+    "zh": "洋基",
+    "en": "New York Yankees",
+    "primary": "#0C2340",
+    "secondary": "#C4CED4"
+  },
+  "position_group": "outfield",
+  "awards": [
+    {
+      "name": "SAL Mid-Season All-Star",
+      "season": "2014"
+    },
+    {
+      "name": "AFL Rising Stars",
+      "season": "2014"
+    },
+    {
+      "name": "AFL Player of the Week",
+      "season": "2014"
+    },
+    {
+      "name": "AFL All-Prospect Team",
+      "season": "2014"
+    },
+    {
+      "name": "MiLB.com Organization All-Star",
+      "season": "2014"
+    },
+    {
+      "name": "Futures Game Selection",
+      "season": "2015"
+    },
+    {
+      "name": "Baseball America Double-A All-Star",
+      "season": "2015"
+    },
+    {
+      "name": "MiLB.com Organization All-Star",
+      "season": "2015"
+    },
+    {
+      "name": "INT Player of the Week",
+      "season": "2016"
+    },
+    {
+      "name": "INT Player of the Month",
+      "season": "2016"
+    },
+    {
+      "name": "INT Mid-Season All-Star",
+      "season": "2016"
+    },
+    {
+      "name": "INT Post-Season All-Star",
+      "season": "2016"
+    },
+    {
+      "name": "MiLB.com Organization All-Star",
+      "season": "2016"
+    },
+    {
+      "name": "AL Rookie of the Month",
+      "season": "2017"
+    },
+    {
+      "name": "AL Rookie of the Month",
+      "season": "2017"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2017"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2017"
+    },
+    {
+      "name": "AL Rookie of the Month",
+      "season": "2017"
+    },
+    {
+      "name": "Home Run Derby Participant",
+      "season": "2017"
+    },
+    {
+      "name": "Home Run Derby Winner",
+      "season": "2017"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2017"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2017"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2017"
+    },
+    {
+      "name": "AL Rookie of the Month",
+      "season": "2017"
+    },
+    {
+      "name": "Baseball America Major League Rookie of the Year",
+      "season": "2017"
+    },
+    {
+      "name": "Baseball America Major League All-Rookie Team",
+      "season": "2017"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Rookie",
+      "season": "2017"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2017"
+    },
+    {
+      "name": "Jackie Robinson AL Rookie of the Year",
+      "season": "2017"
+    },
+    {
+      "name": "Best Rookie - MLB.com Awards",
+      "season": "2017"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2018"
+    },
+    {
+      "name": "Wilson Defensive Player of the Year",
+      "season": "2019"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2020"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2021"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2021"
+    },
+    {
+      "name": "MLBPAA Yankees Heart and Hustle Award",
+      "season": "2021"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2021"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2021"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2022"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2022"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2022"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2022"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2022"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2022"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2022"
+    },
+    {
+      "name": "Baseball America Major League Player of the Year",
+      "season": "2022"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Player",
+      "season": "2022"
+    },
+    {
+      "name": "MLB Players Choice Player of the Year",
+      "season": "2022"
+    },
+    {
+      "name": "AL Hank Aaron Award",
+      "season": "2022"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2022"
+    },
+    {
+      "name": "AL MVP",
+      "season": "2022"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2022"
+    },
+    {
+      "name": "AP Male Athlete of the Year",
+      "season": "2022"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2023"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2023"
+    },
+    {
+      "name": "Roberto Clemente Award",
+      "season": "2023"
+    },
+    {
+      "name": "All-MLB Second Team",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2024"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2024"
+    },
+    {
+      "name": "Baseball America Major League Player of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Player",
+      "season": "2024"
+    },
+    {
+      "name": "MLB Players Choice Player of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2024"
+    },
+    {
+      "name": "AL Hank Aaron Award",
+      "season": "2024"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2024"
+    },
+    {
+      "name": "AL MVP",
+      "season": "2024"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2025"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2025"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2025"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2025"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2025"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2025"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2025"
+    },
+    {
+      "name": "Baseball America Major League Player of the Year",
+      "season": "2025"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2025"
+    },
+    {
+      "name": "AL Hank Aaron Award",
+      "season": "2025"
+    },
+    {
+      "name": "AL MVP",
+      "season": "2025"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2025"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2026"
+    }
+  ],
+  "draft": [
+    {
+      "year": "2010",
+      "round": "31",
+      "pick": 935,
+      "team": "Oakland Athletics",
+      "school": "Linden (CA) HS"
+    },
+    {
+      "year": "2013",
+      "round": "1",
+      "pick": 32,
+      "team": "New York Yankees",
+      "school": "Fresno State"
+    }
+  ],
+  "hitting": [
+    {
+      "season": 2024,
+      "teams": [
+        "New York Yankees"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 32,
+        "gamesPlayed": 158,
+        "groundOuts": 82,
+        "airOuts": 128,
+        "runs": 122,
+        "doubles": 36,
+        "triples": 1,
+        "homeRuns": 58,
+        "strikeOuts": 171,
+        "baseOnBalls": 133,
+        "intentionalWalks": 20,
+        "hits": 180,
+        "hitByPitch": 9,
+        "avg": ".322",
+        "atBats": 559,
+        "obp": ".458",
+        "slg": ".701",
+        "ops": "1.159",
+        "caughtStealing": 0,
+        "stolenBases": 10,
+        "stolenBasePercentage": "1.000",
+        "caughtStealingPercentage": ".000",
+        "groundIntoDoublePlay": 22,
+        "numberOfPitches": 2885,
+        "plateAppearances": 704,
+        "totalBases": 392,
+        "rbi": 144,
+        "leftOnBase": 238,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".367",
+        "groundOutsToAirouts": "0.64",
+        "catchersInterference": 1,
+        "atBatsPerHomeRun": "9.64"
+      },
+      "sabermetrics": {
+        "woba": 0.476,
+        "wRcPlus": 218.66,
+        "war": 11.21
+      },
+      "derived": {
+        "bb_pct": 18.9,
+        "k_pct": 24.3
+      }
+    },
+    {
+      "season": 2025,
+      "teams": [
+        "New York Yankees"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 33,
+        "gamesPlayed": 152,
+        "groundOuts": 84,
+        "airOuts": 125,
+        "runs": 137,
+        "doubles": 30,
+        "triples": 2,
+        "homeRuns": 53,
+        "strikeOuts": 160,
+        "baseOnBalls": 124,
+        "intentionalWalks": 36,
+        "hits": 179,
+        "hitByPitch": 7,
+        "avg": ".331",
+        "atBats": 541,
+        "obp": ".457",
+        "slg": ".688",
+        "ops": "1.145",
+        "caughtStealing": 5,
+        "stolenBases": 12,
+        "stolenBasePercentage": ".706",
+        "caughtStealingPercentage": ".294",
+        "groundIntoDoublePlay": 16,
+        "numberOfPitches": 2631,
+        "plateAppearances": 679,
+        "totalBases": 372,
+        "rbi": 114,
+        "leftOnBase": 205,
+        "sacBunts": 0,
+        "sacFlies": 7,
+        "babip": ".376",
+        "groundOutsToAirouts": "0.67",
+        "catchersInterference": 0,
+        "atBatsPerHomeRun": "10.21"
+      },
+      "sabermetrics": {
+        "woba": 0.463,
+        "wRcPlus": 203.35,
+        "war": 10.04
+      },
+      "derived": {
+        "bb_pct": 18.3,
+        "k_pct": 23.6
+      }
+    },
+    {
+      "season": 2026,
+      "teams": [
+        "New York Yankees"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 34,
+        "gamesPlayed": 66,
+        "groundOuts": 46,
+        "airOuts": 50,
+        "runs": 45,
+        "doubles": 10,
+        "triples": 0,
+        "homeRuns": 18,
+        "strikeOuts": 85,
+        "baseOnBalls": 43,
+        "intentionalWalks": 5,
+        "hits": 57,
+        "hitByPitch": 2,
+        "avg": ".241",
+        "atBats": 237,
+        "obp": ".360",
+        "slg": ".511",
+        "ops": ".871",
+        "caughtStealing": 3,
+        "stolenBases": 5,
+        "stolenBasePercentage": ".625",
+        "caughtStealingPercentage": ".375",
+        "groundIntoDoublePlay": 9,
+        "numberOfPitches": 1217,
+        "plateAppearances": 285,
+        "totalBases": 121,
+        "rbi": 41,
+        "leftOnBase": 85,
+        "sacBunts": 0,
+        "sacFlies": 1,
+        "babip": ".289",
+        "groundOutsToAirouts": "0.92",
+        "catchersInterference": 2,
+        "atBatsPerHomeRun": "13.17"
+      },
+      "sabermetrics": {
+        "woba": 0.372,
+        "wRcPlus": 140.1,
+        "war": 2.0
+      },
+      "derived": {
+        "bb_pct": 15.1,
+        "k_pct": 29.8
+      }
+    }
+  ],
+  "pitching": null,
+  "pitch_arsenal": null
+}

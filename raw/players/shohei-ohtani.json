@@ -1,0 +1,719 @@
+{
+  "_note": "由 scripts/fetch_player.py 自動產生，請勿手改。要更新請重跑腳本。",
+  "slug": "shohei-ohtani",
+  "mlbam_id": 660271,
+  "fetched_at": "2026-11-16",
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "sources": {
+    "api": "https://statsapi.mlb.com/api/v1/people/660271",
+    "mlb_com": "https://www.mlb.com/player/shohei-ohtani-660271",
+    "baseball_reference": "https://www.baseball-reference.com/search/search.fcgi?search=Shohei%20Ohtani"
+  },
+  "bio": {
+    "full_name": "Shohei Ohtani",
+    "first_name": "Shohei",
+    "last_name": "Ohtani",
+    "number": "17",
+    "position": "TWP",
+    "position_name": "Two-Way Player",
+    "bats": "L",
+    "throws": "R",
+    "birth_date": "1994-07-05",
+    "age": 32,
+    "birth_place": "Oshu, Japan",
+    "height": "6' 4\"",
+    "height_cm": 193,
+    "weight_lb": 210,
+    "weight_kg": 95,
+    "mlb_debut": "2018-03-29"
+  },
+  "current_team": {
+    "id": 119,
+    "abbr": "LAD",
+    "zh": "道奇",
+    "en": "Los Angeles Dodgers",
+    "primary": "#005A9C",
+    "secondary": "#EF3E42"
+  },
+  "position_group": "two-way",
+  "awards": [
+    {
+      "name": "AL Player of the Week",
+      "season": "2018"
+    },
+    {
+      "name": "AL Rookie of the Month",
+      "season": "2018"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2018"
+    },
+    {
+      "name": "AL Rookie of the Month",
+      "season": "2018"
+    },
+    {
+      "name": "Baseball America Major League All-Rookie Team",
+      "season": "2018"
+    },
+    {
+      "name": "Baseball America Major League Rookie of the Year",
+      "season": "2018"
+    },
+    {
+      "name": "Jackie Robinson AL Rookie of the Year",
+      "season": "2018"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2021"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2021"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2021"
+    },
+    {
+      "name": "Home Run Derby Participant",
+      "season": "2021"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2021"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2021"
+    },
+    {
+      "name": "Baseball America Major League Player of the Year",
+      "season": "2021"
+    },
+    {
+      "name": "Commissioner’s Historic Achievement Award",
+      "season": "2021"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Player",
+      "season": "2021"
+    },
+    {
+      "name": "MLB Players Choice Player of the Year",
+      "season": "2021"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2021"
+    },
+    {
+      "name": "AL MVP",
+      "season": "2021"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2021"
+    },
+    {
+      "name": "All-MLB Second Team",
+      "season": "2021"
+    },
+    {
+      "name": "Edgar Martinez Outstanding DH of the Year",
+      "season": "2021"
+    },
+    {
+      "name": "AP Male Athlete of the Year",
+      "season": "2021"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2022"
+    },
+    {
+      "name": "Edgar Martinez Outstanding DH of the Year",
+      "season": "2022"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2022"
+    },
+    {
+      "name": "All-MLB Second Team",
+      "season": "2022"
+    },
+    {
+      "name": "World Baseball Classic Pool B MVP",
+      "season": "2023"
+    },
+    {
+      "name": "World Baseball Classic MVP",
+      "season": "2023"
+    },
+    {
+      "name": "WBC All-Tournament Team",
+      "season": "2023"
+    },
+    {
+      "name": "WBC All-Tournament Team",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2023"
+    },
+    {
+      "name": "AL All-Star",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Week",
+      "season": "2023"
+    },
+    {
+      "name": "AL Player of the Month",
+      "season": "2023"
+    },
+    {
+      "name": "Baseball America Major League Player of the Year",
+      "season": "2023"
+    },
+    {
+      "name": "MLB Players Choice AL Outstanding Player",
+      "season": "2023"
+    },
+    {
+      "name": "AL Silver Slugger",
+      "season": "2023"
+    },
+    {
+      "name": "AL MVP",
+      "season": "2023"
+    },
+    {
+      "name": "Edgar Martinez Outstanding DH of the Year",
+      "season": "2023"
+    },
+    {
+      "name": "AL Hank Aaron Award",
+      "season": "2023"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2023"
+    },
+    {
+      "name": "AP Male Athlete of the Year",
+      "season": "2023"
+    },
+    {
+      "name": "NL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "NL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "NL All-Star",
+      "season": "2024"
+    },
+    {
+      "name": "NL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "NL Player of the Week",
+      "season": "2024"
+    },
+    {
+      "name": "NL Player of the Month",
+      "season": "2024"
+    },
+    {
+      "name": "MLB Players Choice NL Outstanding Player",
+      "season": "2024"
+    },
+    {
+      "name": "World Series Championship",
+      "season": "2024"
+    },
+    {
+      "name": "NL Silver Slugger",
+      "season": "2024"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2024"
+    },
+    {
+      "name": "Edgar Martinez Outstanding DH of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "NL Hank Aaron Award",
+      "season": "2024"
+    },
+    {
+      "name": "NL MVP",
+      "season": "2024"
+    },
+    {
+      "name": "AP Male Athlete of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "NL Player of the Month",
+      "season": "2025"
+    },
+    {
+      "name": "NL All-Star",
+      "season": "2025"
+    },
+    {
+      "name": "NLCS MVP",
+      "season": "2025"
+    },
+    {
+      "name": "World Series Championship",
+      "season": "2025"
+    },
+    {
+      "name": "NL Silver Slugger",
+      "season": "2025"
+    },
+    {
+      "name": "MLB Legendary Moments Award Presented by Budweiser",
+      "season": "2025"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2025"
+    },
+    {
+      "name": "Edgar Martinez Outstanding DH of the Year",
+      "season": "2025"
+    },
+    {
+      "name": "NL Hank Aaron Award",
+      "season": "2025"
+    },
+    {
+      "name": "NL MVP",
+      "season": "2025"
+    },
+    {
+      "name": "AP Male Athlete of the Year",
+      "season": "2025"
+    },
+    {
+      "name": "WBC All-Tournament Team",
+      "season": "2026"
+    },
+    {
+      "name": "NL Pitcher of the Month",
+      "season": "2026"
+    },
+    {
+      "name": "NL All-Star",
+      "season": "2026"
+    }
+  ],
+  "draft": [],
+  "hitting": [
+    {
+      "season": 2024,
+      "teams": [
+        "Los Angeles Dodgers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 29,
+        "gamesPlayed": 159,
+        "groundOuts": 124,
+        "airOuts": 158,
+        "runs": 134,
+        "doubles": 38,
+        "triples": 7,
+        "homeRuns": 54,
+        "strikeOuts": 162,
+        "baseOnBalls": 81,
+        "intentionalWalks": 10,
+        "hits": 197,
+        "hitByPitch": 6,
+        "avg": ".310",
+        "atBats": 636,
+        "obp": ".390",
+        "slg": ".646",
+        "ops": "1.036",
+        "caughtStealing": 4,
+        "stolenBases": 59,
+        "stolenBasePercentage": ".937",
+        "caughtStealingPercentage": ".063",
+        "groundIntoDoublePlay": 7,
+        "numberOfPitches": 2838,
+        "plateAppearances": 731,
+        "totalBases": 411,
+        "rbi": 130,
+        "leftOnBase": 236,
+        "sacBunts": 0,
+        "sacFlies": 5,
+        "babip": ".336",
+        "groundOutsToAirouts": "0.78",
+        "catchersInterference": 3,
+        "atBatsPerHomeRun": "11.78"
+      },
+      "sabermetrics": {
+        "woba": 0.431,
+        "wRcPlus": 179.44,
+        "war": 8.93
+      },
+      "derived": {
+        "bb_pct": 11.1,
+        "k_pct": 22.2
+      }
+    },
+    {
+      "season": 2025,
+      "teams": [
+        "Los Angeles Dodgers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 30,
+        "gamesPlayed": 158,
+        "groundOuts": 120,
+        "airOuts": 134,
+        "runs": 146,
+        "doubles": 25,
+        "triples": 9,
+        "homeRuns": 55,
+        "strikeOuts": 187,
+        "baseOnBalls": 109,
+        "intentionalWalks": 20,
+        "hits": 172,
+        "hitByPitch": 3,
+        "avg": ".282",
+        "atBats": 611,
+        "obp": ".392",
+        "slg": ".622",
+        "ops": "1.014",
+        "caughtStealing": 6,
+        "stolenBases": 20,
+        "stolenBasePercentage": ".769",
+        "caughtStealingPercentage": ".231",
+        "groundIntoDoublePlay": 9,
+        "numberOfPitches": 2865,
+        "plateAppearances": 727,
+        "totalBases": 380,
+        "rbi": 102,
+        "leftOnBase": 188,
+        "sacBunts": 0,
+        "sacFlies": 2,
+        "babip": ".315",
+        "groundOutsToAirouts": "0.90",
+        "catchersInterference": 2,
+        "atBatsPerHomeRun": "11.11"
+      },
+      "sabermetrics": {
+        "woba": 0.418,
+        "wRcPlus": 172.07,
+        "war": 7.45
+      },
+      "derived": {
+        "bb_pct": 15.0,
+        "k_pct": 25.7
+      }
+    },
+    {
+      "season": 2026,
+      "teams": [
+        "Los Angeles Dodgers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 31,
+        "gamesPlayed": 139,
+        "groundOuts": 117,
+        "airOuts": 115,
+        "runs": 89,
+        "doubles": 26,
+        "triples": 4,
+        "homeRuns": 30,
+        "strikeOuts": 152,
+        "baseOnBalls": 81,
+        "intentionalWalks": 16,
+        "hits": 144,
+        "hitByPitch": 7,
+        "avg": ".275",
+        "atBats": 523,
+        "obp": ".377",
+        "slg": ".512",
+        "ops": ".889",
+        "caughtStealing": 3,
+        "stolenBases": 11,
+        "stolenBasePercentage": ".786",
+        "caughtStealingPercentage": ".214",
+        "groundIntoDoublePlay": 9,
+        "numberOfPitches": 2356,
+        "plateAppearances": 618,
+        "totalBases": 268,
+        "rbi": 81,
+        "leftOnBase": 174,
+        "sacBunts": 0,
+        "sacFlies": 5,
+        "babip": ".329",
+        "groundOutsToAirouts": "1.02",
+        "catchersInterference": 2,
+        "atBatsPerHomeRun": "17.43"
+      },
+      "sabermetrics": {
+        "woba": 0.377,
+        "wRcPlus": 139.22,
+        "war": 3.69
+      },
+      "derived": {
+        "bb_pct": 13.1,
+        "k_pct": 24.6
+      }
+    }
+  ],
+  "pitching": [
+    null,
+    {
+      "season": 2025,
+      "teams": [
+        "Los Angeles Dodgers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 30,
+        "gamesPlayed": 14,
+        "gamesStarted": 14,
+        "groundOuts": 40,
+        "airOuts": 37,
+        "runs": 15,
+        "doubles": 6,
+        "triples": 0,
+        "homeRuns": 3,
+        "strikeOuts": 62,
+        "baseOnBalls": 9,
+        "intentionalWalks": 0,
+        "hits": 40,
+        "hitByPitch": 0,
+        "avg": ".227",
+        "atBats": 176,
+        "obp": ".261",
+        "slg": ".313",
+        "ops": ".574",
+        "caughtStealing": 0,
+        "stolenBases": 1,
+        "stolenBasePercentage": "1.000",
+        "caughtStealingPercentage": ".000",
+        "groundIntoDoublePlay": 3,
+        "numberOfPitches": 753,
+        "era": "2.87",
+        "inningsPitched": "47.0",
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 15,
+        "whip": "1.04",
+        "battersFaced": 188,
+        "outs": 141,
+        "gamesPitched": 14,
+        "completeGames": 0,
+        "shutouts": 0,
+        "strikes": 495,
+        "strikePercentage": ".660",
+        "hitBatsmen": 0,
+        "balks": 0,
+        "wildPitches": 10,
+        "pickoffs": 0,
+        "totalBases": 55,
+        "groundOutsToAirouts": "1.08",
+        "winPercentage": ".500",
+        "pitchesPerInning": "16.02",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "6.89",
+        "strikeoutsPer9Inn": "11.87",
+        "walksPer9Inn": "1.72",
+        "hitsPer9Inn": "7.66",
+        "runsScoredPer9": "2.87",
+        "homeRunsPer9": "0.57",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 0,
+        "sacFlies": 3
+      },
+      "sabermetrics": {
+        "fip": 1.9,
+        "xfip": 2.45,
+        "fipMinus": 46.1,
+        "war": 1.92,
+        "eraMinus": 68.44
+      },
+      "derived": {
+        "k_pct": 33.0,
+        "bb_pct": 4.8,
+        "gs_ratio": 1.0
+      }
+    },
+    {
+      "season": 2026,
+      "teams": [
+        "Los Angeles Dodgers"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 31,
+        "gamesPlayed": 14,
+        "gamesStarted": 14,
+        "groundOuts": 87,
+        "airOuts": 71,
+        "runs": 21,
+        "doubles": 13,
+        "triples": 0,
+        "homeRuns": 4,
+        "strikeOuts": 95,
+        "baseOnBalls": 26,
+        "intentionalWalks": 0,
+        "hits": 55,
+        "hitByPitch": 6,
+        "avg": ".180",
+        "atBats": 305,
+        "obp": ".257",
+        "slg": ".262",
+        "ops": ".519",
+        "caughtStealing": 0,
+        "stolenBases": 3,
+        "stolenBasePercentage": "1.000",
+        "caughtStealingPercentage": ".000",
+        "groundIntoDoublePlay": 3,
+        "numberOfPitches": 1335,
+        "era": "1.79",
+        "inningsPitched": "85.2",
+        "wins": 8,
+        "losses": 2,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 17,
+        "whip": "0.95",
+        "battersFaced": 340,
+        "outs": 257,
+        "gamesPitched": 14,
+        "completeGames": 0,
+        "shutouts": 0,
+        "strikes": 862,
+        "strikePercentage": ".650",
+        "hitBatsmen": 6,
+        "balks": 1,
+        "wildPitches": 0,
+        "pickoffs": 0,
+        "totalBases": 80,
+        "groundOutsToAirouts": "1.23",
+        "winPercentage": ".800",
+        "pitchesPerInning": "15.58",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "3.65",
+        "strikeoutsPer9Inn": "9.98",
+        "walksPer9Inn": "2.73",
+        "hitsPer9Inn": "5.78",
+        "runsScoredPer9": "2.21",
+        "homeRunsPer9": "0.42",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 1,
+        "sacFlies": 2
+      },
+      "sabermetrics": {
+        "fip": 2.61,
+        "xfip": 3.24,
+        "fipMinus": 60.7,
+        "war": 2.94,
+        "eraMinus": 42.69
+      },
+      "derived": {
+        "k_pct": 27.9,
+        "bb_pct": 7.6,
+        "gs_ratio": 1.0
+      }
+    }
+  ],
+  "pitch_arsenal": {
+    "season": 2026,
+    "pitches": [
+      {
+        "code": "FF",
+        "name": "Four-seam FB",
+        "usage_pct": 45.1,
+        "avg_mph": 98.1,
+        "count": 602
+      },
+      {
+        "code": "ST",
+        "name": "Sweeper",
+        "usage_pct": 29.4,
+        "avg_mph": 85.0,
+        "count": 393
+      },
+      {
+        "code": "CU",
+        "name": "Curveball",
+        "usage_pct": 10.0,
+        "avg_mph": 75.2,
+        "count": 133
+      },
+      {
+        "code": "FS",
+        "name": "Splitter",
+        "usage_pct": 8.5,
+        "avg_mph": 89.0,
+        "count": 114
+      },
+      {
+        "code": "SI",
+        "name": "Sinker",
+        "usage_pct": 5.2,
+        "avg_mph": 96.5,
+        "count": 69
+      },
+      {
+        "code": "SL",
+        "name": "Slider",
+        "usage_pct": 1.1,
+        "avg_mph": 88.0,
+        "count": 15
+      },
+      {
+        "code": "FC",
+        "name": "Cutter",
+        "usage_pct": 0.7,
+        "avg_mph": 92.4,
+        "count": 9
+      }
+    ]
+  }
+}

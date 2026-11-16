@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{FULL_NAME}}｜MLB 球員觀察筆記</title>
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+<header class="site-bar"><a href="../../index.html">← MLB 球員觀察筆記</a><span>資料截至 {{FETCHED_AT}}</span></header>
+
+<main class="page player" style="{{TEAM_VARS}}">
+
+  <section class="player-card" id="card">
+{{jersey}}
+    <div class="who">
+{{pos}}
+      <h1>{{FULL_NAME}}</h1>
+      <p class="tagline">TODO-AI:一句話定位（30 字以內）</p>
+    </div>
+{{facts}}
+  </section>
+
+  <section class="block" id="bio">
+    <h2>生涯簡介</h2>
+    <p>TODO-AI:生涯簡介（3～5 句，只寫 JSON 裡查得到的事實：選秀、初登板、轉隊、主要獎項）</p>
+  </section>
+
+  <section class="block" id="stats">
+    <h2>近三季數據</h2>
+{{stats}}
+  </section>
+
+  <section class="block" id="analysis">
+    <h2>數據解讀</h2>
+    <ul class="points">
+      <li>TODO-AI:第 1 點（引用表格裡的具體數字）</li>
+      <li>TODO-AI:第 2 點</li>
+      <li>TODO-AI:第 3 點</li>
+    </ul>
+  </section>
+
+  <section class="block" id="style">
+    <h2>打法特色</h2>
+{{arsenal}}
+    <ul class="traits">
+      <li>TODO-AI:打者寫「力量／選球／速度／守備」四項；投手寫「控球／角色」兩項（球種已在上方長條圖）</li>
+    </ul>
+  </section>
+
+  <section class="block mine" id="mine">
+    <h2>我的觀察</h2>
+    <p class="todo">待補</p>
+  </section>
+
+  <section class="block sources" id="sources">
+    <h2>資料來源</h2>
+{{sources}}
+  </section>
+
+</main>
+
+<footer class="site-foot">本頁依專案 CLAUDE.md 規則由 AI 產生；數據由 scripts/fetch_player.py 從 MLB Stats API 取得，不含任何手抄數字。</footer>
+</body>
+</html>
