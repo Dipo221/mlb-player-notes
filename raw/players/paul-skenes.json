@@ -1,0 +1,416 @@
+{
+  "_note": "由 scripts/fetch_player.py 自動產生，請勿手改。要更新請重跑腳本。",
+  "slug": "paul-skenes",
+  "mlbam_id": 694973,
+  "fetched_at": "2026-11-16",
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "sources": {
+    "api": "https://statsapi.mlb.com/api/v1/people/694973",
+    "mlb_com": "https://www.mlb.com/player/paul-skenes-694973",
+    "baseball_reference": "https://www.baseball-reference.com/search/search.fcgi?search=Paul%20Skenes"
+  },
+  "bio": {
+    "full_name": "Paul Skenes",
+    "first_name": "Paul",
+    "last_name": "Skenes",
+    "number": "30",
+    "position": "P",
+    "position_name": "Pitcher",
+    "bats": "R",
+    "throws": "R",
+    "birth_date": "2002-05-29",
+    "age": 24,
+    "birth_place": "Fullerton, CA, USA",
+    "height": "6' 6\"",
+    "height_cm": 198,
+    "weight_lb": 260,
+    "weight_kg": 118,
+    "mlb_debut": "2024-05-11"
+  },
+  "current_team": {
+    "id": 134,
+    "abbr": "PIT",
+    "zh": "海盜",
+    "en": "Pittsburgh Pirates",
+    "primary": "#27251F",
+    "secondary": "#FDB827"
+  },
+  "position_group": "starter",
+  "awards": [
+    {
+      "name": "All-Spring Breakout First Team",
+      "season": "2024"
+    },
+    {
+      "name": "NL All-Star",
+      "season": "2024"
+    },
+    {
+      "name": "Baseball America Major League All-Rookie Team",
+      "season": "2024"
+    },
+    {
+      "name": "Baseball America Major League Rookie of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "NL Rookie of the Month",
+      "season": "2024"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2024"
+    },
+    {
+      "name": "Jackie Robinson NL Rookie of the Year",
+      "season": "2024"
+    },
+    {
+      "name": "NL All-Star",
+      "season": "2025"
+    },
+    {
+      "name": "NL Pitcher of the Month",
+      "season": "2025"
+    },
+    {
+      "name": "MLB Players Choice NL Outstanding Pitcher",
+      "season": "2025"
+    },
+    {
+      "name": "NL Cy Young",
+      "season": "2025"
+    },
+    {
+      "name": "All-MLB First Team",
+      "season": "2025"
+    },
+    {
+      "name": "WBC All-Tournament Team",
+      "season": "2026"
+    },
+    {
+      "name": "NL All-Star",
+      "season": "2026"
+    }
+  ],
+  "draft": [
+    {
+      "year": "2023",
+      "round": "1",
+      "pick": 1,
+      "team": "Pittsburgh Pirates",
+      "school": "LSU"
+    }
+  ],
+  "hitting": null,
+  "pitching": [
+    {
+      "season": 2024,
+      "teams": [
+        "Pittsburgh Pirates"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 22,
+        "gamesPlayed": 23,
+        "gamesStarted": 23,
+        "groundOuts": 122,
+        "airOuts": 90,
+        "runs": 31,
+        "doubles": 14,
+        "triples": 1,
+        "homeRuns": 10,
+        "strikeOuts": 170,
+        "baseOnBalls": 32,
+        "intentionalWalks": 0,
+        "hits": 94,
+        "hitByPitch": 6,
+        "avg": ".198",
+        "atBats": 475,
+        "obp": ".257",
+        "slg": ".295",
+        "ops": ".552",
+        "caughtStealing": 1,
+        "stolenBases": 6,
+        "stolenBasePercentage": ".857",
+        "caughtStealingPercentage": ".143",
+        "groundIntoDoublePlay": 15,
+        "numberOfPitches": 2125,
+        "era": "1.96",
+        "inningsPitched": "133.0",
+        "wins": 11,
+        "losses": 3,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 29,
+        "whip": "0.95",
+        "battersFaced": 514,
+        "outs": 399,
+        "gamesPitched": 23,
+        "completeGames": 0,
+        "shutouts": 0,
+        "strikes": 1404,
+        "strikePercentage": ".660",
+        "hitBatsmen": 6,
+        "balks": 1,
+        "wildPitches": 2,
+        "pickoffs": 3,
+        "totalBases": 140,
+        "groundOutsToAirouts": "1.36",
+        "winPercentage": ".786",
+        "pitchesPerInning": "15.98",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "5.31",
+        "strikeoutsPer9Inn": "11.50",
+        "walksPer9Inn": "2.17",
+        "hitsPer9Inn": "6.36",
+        "runsScoredPer9": "2.10",
+        "homeRunsPer9": "0.68",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 0,
+        "sacFlies": 1
+      },
+      "sabermetrics": {
+        "fip": 2.44,
+        "xfip": 2.54,
+        "fipMinus": 60.86,
+        "war": 4.3,
+        "eraMinus": 46.2
+      },
+      "derived": {
+        "k_pct": 33.1,
+        "bb_pct": 6.2,
+        "gs_ratio": 1.0
+      }
+    },
+    {
+      "season": 2025,
+      "teams": [
+        "Pittsburgh Pirates"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 23,
+        "gamesPlayed": 32,
+        "gamesStarted": 32,
+        "groundOuts": 167,
+        "airOuts": 166,
+        "runs": 45,
+        "doubles": 37,
+        "triples": 2,
+        "homeRuns": 11,
+        "strikeOuts": 216,
+        "baseOnBalls": 42,
+        "intentionalWalks": 0,
+        "hits": 136,
+        "hitByPitch": 6,
+        "avg": ".199",
+        "atBats": 684,
+        "obp": ".251",
+        "slg": ".307",
+        "ops": ".558",
+        "caughtStealing": 2,
+        "stolenBases": 4,
+        "stolenBasePercentage": ".667",
+        "caughtStealingPercentage": ".333",
+        "groundIntoDoublePlay": 13,
+        "numberOfPitches": 2997,
+        "era": "1.97",
+        "inningsPitched": "187.2",
+        "wins": 10,
+        "losses": 10,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 41,
+        "whip": "0.95",
+        "battersFaced": 733,
+        "outs": 563,
+        "gamesPitched": 32,
+        "completeGames": 1,
+        "shutouts": 0,
+        "strikes": 1952,
+        "strikePercentage": ".650",
+        "hitBatsmen": 6,
+        "balks": 0,
+        "wildPitches": 2,
+        "pickoffs": 1,
+        "totalBases": 210,
+        "groundOutsToAirouts": "1.01",
+        "winPercentage": ".500",
+        "pitchesPerInning": "15.97",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "5.14",
+        "strikeoutsPer9Inn": "10.36",
+        "walksPer9Inn": "2.01",
+        "hitsPer9Inn": "6.52",
+        "runsScoredPer9": "2.16",
+        "homeRunsPer9": "0.53",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 0,
+        "sacBunts": 0,
+        "sacFlies": 1
+      },
+      "sabermetrics": {
+        "fip": 2.36,
+        "xfip": 3.03,
+        "fipMinus": 57.93,
+        "war": 6.53,
+        "eraMinus": 45.36
+      },
+      "derived": {
+        "k_pct": 29.5,
+        "bb_pct": 5.7,
+        "gs_ratio": 1.0
+      }
+    },
+    {
+      "season": 2026,
+      "teams": [
+        "Pittsburgh Pirates"
+      ],
+      "team_label": null,
+      "stat": {
+        "age": 24,
+        "gamesPlayed": 32,
+        "gamesStarted": 32,
+        "groundOuts": 136,
+        "airOuts": 169,
+        "runs": 82,
+        "doubles": 34,
+        "triples": 2,
+        "homeRuns": 20,
+        "strikeOuts": 200,
+        "baseOnBalls": 49,
+        "intentionalWalks": 0,
+        "hits": 146,
+        "hitByPitch": 11,
+        "avg": ".227",
+        "atBats": 643,
+        "obp": ".291",
+        "slg": ".379",
+        "ops": ".670",
+        "caughtStealing": 3,
+        "stolenBases": 3,
+        "stolenBasePercentage": ".500",
+        "caughtStealingPercentage": ".500",
+        "groundIntoDoublePlay": 12,
+        "numberOfPitches": 2890,
+        "era": "3.82",
+        "inningsPitched": "174.1",
+        "wins": 10,
+        "losses": 11,
+        "saves": 0,
+        "saveOpportunities": 0,
+        "holds": 0,
+        "blownSaves": 0,
+        "earnedRuns": 74,
+        "whip": "1.12",
+        "battersFaced": 712,
+        "outs": 523,
+        "gamesPitched": 32,
+        "completeGames": 0,
+        "shutouts": 0,
+        "strikes": 1864,
+        "strikePercentage": ".640",
+        "hitBatsmen": 11,
+        "balks": 0,
+        "wildPitches": 2,
+        "pickoffs": 2,
+        "totalBases": 244,
+        "groundOutsToAirouts": "0.80",
+        "winPercentage": ".476",
+        "pitchesPerInning": "16.58",
+        "gamesFinished": 0,
+        "strikeoutWalkRatio": "4.08",
+        "strikeoutsPer9Inn": "10.33",
+        "walksPer9Inn": "2.53",
+        "hitsPer9Inn": "7.54",
+        "runsScoredPer9": "4.23",
+        "homeRunsPer9": "1.03",
+        "inheritedRunners": 0,
+        "inheritedRunnersScored": 0,
+        "catchersInterference": 1,
+        "sacBunts": 3,
+        "sacFlies": 5
+      },
+      "sabermetrics": {
+        "fip": 3.33,
+        "xfip": 3.41,
+        "fipMinus": 78.99,
+        "war": 4.19,
+        "eraMinus": 88.42
+      },
+      "derived": {
+        "k_pct": 28.1,
+        "bb_pct": 6.9,
+        "gs_ratio": 1.0
+      }
+    }
+  ],
+  "pitch_arsenal": {
+    "season": 2026,
+    "pitches": [
+      {
+        "code": "FF",
+        "name": "Four-seam FB",
+        "usage_pct": 40.8,
+        "avg_mph": 96.8,
+        "count": 1180
+      },
+      {
+        "code": "ST",
+        "name": "Sweeper",
+        "usage_pct": 15.9,
+        "avg_mph": 84.3,
+        "count": 460
+      },
+      {
+        "code": "CH",
+        "name": "Changeup",
+        "usage_pct": 12.5,
+        "avg_mph": 88.7,
+        "count": 360
+      },
+      {
+        "code": "SI",
+        "name": "Sinker",
+        "usage_pct": 11.8,
+        "avg_mph": 96.6,
+        "count": 340
+      },
+      {
+        "code": "FS",
+        "name": "Splitter",
+        "usage_pct": 10.1,
+        "avg_mph": 93.2,
+        "count": 291
+      },
+      {
+        "code": "SL",
+        "name": "Slider",
+        "usage_pct": 8.6,
+        "avg_mph": 86.7,
+        "count": 249
+      },
+      {
+        "code": "CU",
+        "name": "Curveball",
+        "usage_pct": 0.3,
+        "avg_mph": 81.8,
+        "count": 10
+      }
+    ]
+  }
+}
