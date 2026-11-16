@@ -101,6 +101,7 @@ python3 scripts/check_site.py                     # 7. 必須「全部通過」
 - 球隊色只在 `<main class="page player" style="--team-primary:…; --team-secondary:…">` 設定一次（腳本會自動帶入），
   頁面頂部色帶、背號方塊、段落標題左線、表頭底線、球種長條、強調文字會自動跟著變色。
 - 頁面不可有 `<style>`，行內 style 只允許 CSS 變數；所有樣式寫在 `assets/css/site.css`。
+- 支援深色／淺色模式（`assets/js/theme.js`，版型的 `<head>` 已載入）。文字與線條的球隊色用 `--accent`，色塊才用 `--team-primary`，深色模式才不會看不清楚。
 - 版型骨架在同資料夾的 `template.html`。要改版型時先改 template 與 site.css，並請使用者確認；
   既有頁面的資料區塊可用 `--update` 重新產生，其他結構（段落、標題）要手動同步到每一頁。
 

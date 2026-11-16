@@ -7,7 +7,7 @@
   3. 球員頁的資料區塊和 JSON 重新計算的結果完全一致（數字不可手改）
   4. 首頁每位球員都有卡片、卡片內容和 JSON 一致、每個連結都指到存在的檔案
   5. 首頁分組順序正確、組內依姓氏排序、「共 N 位球員」數字正確
-  6. 所有 HTML 沒有 <style>、沒有非變數的行內 style、沒有本機絕對路徑、沒有外部 script/css
+  6. 所有 HTML 在 <head> 載入 theme.js（深色模式），沒有 <style>、沒有非變數的行內 style、沒有本機絕對路徑、沒有外部 script/css
 """
 import re
 import sys
@@ -35,6 +35,8 @@ def check_common(path, html):
             err(f"{rel}: 行內 style 只能設定 CSS 變數：{m.group(0)[:60]}")
     if re.search(r"(/home/|file://|\b[A-Za-z]:\\[A-Za-z]|/Users/)", html):
         err(f"{rel}: 出現本機絕對路徑")
+    if not re.search(r'<head>.*<script src="[./]*assets/js/theme\.js"></script>.*</head>', html, re.S):
+        err(f"{rel}: <head> 裡缺少 assets/js/theme.js（深色模式）")
     for m in re.finditer(r'<(?:script|link)[^>]+(?:src|href)="(https?:)?//', html):
         err(f"{rel}: 不可載入外部資源：{m.group(0)[:60]}")
     for m in re.finditer(r'(?:href|src)="([^"#:]+?)(?:#[^"]*)?"', html):

@@ -34,7 +34,9 @@ mlb-player-notes/
 ├── index.html                ← 首頁：所有球員卡片，依位置分組（AI 每次新增後更新）
 ├── assets/
 │   ├── css/site.css          ← 全站唯一樣式表
-│   └── js/search.js          ← 首頁搜尋（新增球員不需修改）
+│   └── js/
+│       ├── search.js         ← 首頁搜尋（新增球員不需修改）
+│       └── theme.js          ← 深色／淺色模式切換（每一頁的 <head> 都要載入）
 ├── data/
 │   └── teams.json            ← 30 隊：API ID、縮寫、中文隊名、主色、副色
 ├── raw/players/
@@ -123,6 +125,10 @@ mlb-player-notes/
 - 白底、細線、系統字型，重點色跟著球員所屬球隊變化（顏色來自 `data/teams.json`）。
 - 全站只用 `assets/css/site.css`；頁面裡不寫 `<style>`，行內 style **只能設定 CSS 變數**
   （`--team-primary`、`--team-secondary`、球種長條的 `--w`），這些都由腳本自動帶入。
+- **深色／淺色模式**：每一頁的 `<head>` 都要在 site.css 後面載入 `assets/js/theme.js`（球員頁路徑是 `../../assets/js/theme.js`，版型已內建）。
+  - 預設跟隨系統設定；使用者按右上角按鈕切換後記在 localStorage，全站沿用。按鈕由 theme.js 自動加到 `.site-bar`，HTML 不用寫。
+  - 新增顏色一律寫成 site.css 的變數，並在 `[data-theme="dark"]` 區塊給深色值，不可在元件裡寫死顏色。
+  - 球隊色：色塊（背號方塊、頂部色帶）用 `--team-primary`／`--team-secondary`；文字與線條用 `--accent`（深色模式會自動調亮，避免洋基、海盜這類深色隊色在深色背景上看不到）。
 - 要改風格時先改 skill 與 site.css，並請使用者確認是否套用到所有既有頁面。
 - 手機優先：寬度 375px 時頁面不可橫向捲動；數據表放在 `.table-wrap` 裡，小螢幕可以在表格內左右滑動。
 
@@ -137,7 +143,7 @@ mlb-player-notes/
 
 ## 10. 驗收清單（每次完成前自我檢查）
 
-- [ ] `python3 scripts/check_site.py` 顯示「全部通過」（它會檢查：三檔齊全、沒有 TODO-AI、段落齊全且順序正確、資料區塊和 JSON 一致、首頁連結／分組／排序／總數正確、沒有 `<style>`／非變數行內 style／本機路徑／外部資源）
+- [ ] `python3 scripts/check_site.py` 顯示「全部通過」（它會檢查：三檔齊全、沒有 TODO-AI、段落齊全且順序正確、資料區塊和 JSON 一致、首頁連結／分組／排序／總數正確、每頁有載入 theme.js、沒有 `<style>`／非變數行內 style／本機路徑／外部資源）
 - [ ] 文字段落引用的數字都能在數據表或 JSON 找到
 - [ ] 首頁球員總數與最後更新日期已更新
 - [ ] 回報中列出新增／修改的檔案與「待確認」「待補」項目
